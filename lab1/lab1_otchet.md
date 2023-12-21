@@ -41,3 +41,6 @@ Ansible был установлен с помощью соответсвующи
 
 В результате установки OVPN в консоли выводится лицензия, секретный ключ для подключения, а также логин и пароль
 ![Установленный OVPN](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/RunOVPN.png) 
+
+Далее осущствляется создания сетевого интерфейса в RouterOS с помощью WinBox. В процессе создания загружаются в файлы RouterOS сертификат и подключается к нему секретныйй ключ. Дале происходит настройка самого интерфейса
+![Настройка сетевого интерфейса в WinBox](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/interfaceFoOVPNClientMT.png) 
