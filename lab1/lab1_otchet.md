@@ -19,7 +19,7 @@ Lab: Lab1
 #### Создание виртуальной машины
 ![Созданнная машина] Для рабботы необходимо создать виртуальную машину в сервисе Yandex.Cloud. ВЫполненный результат ниже на скриншоте(https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/yandexVM.png)
 Далее, были скачаны дополнительные плагины и зависимости для дальнейших лабораторных работ  
-Например, python & ansible ![Успешная установка Python & Ansible](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Cкачивание%20python%20%26%20ansible.png)  
+Например, python & ansible ![Успешная установка Python & Ansible] (https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Cкачивание%20python%20%26%20ansible.png)  
 Настройка адаптера представлена ниже: в режиме Bridge. ![Настройка интерфейса](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Настройки%20адаптера.png)  
 #### Работа с OpenVPN server
 Сначала установим сервер OpenVPN на удаленную виртуальную машину  
