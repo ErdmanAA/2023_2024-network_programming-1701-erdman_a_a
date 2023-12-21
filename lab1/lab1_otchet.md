@@ -1,4 +1,4 @@
-University: [ITMO University](https://itmo.ru/ru/)  
+University: ITMO University 
 Faculty: [FICT](https://fict.itmo.ru)  
 Course: [Network-programming](https://itmo-ict-faculty.github.io/network-programming/)   
 Year: 2023/2024  
