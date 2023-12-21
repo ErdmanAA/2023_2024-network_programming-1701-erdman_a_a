@@ -38,3 +38,6 @@ Ansible был установлен с помощью соответсвующи
 
 После настройки всех машин следует установка OVPN на виртуальную машину яндекс с помощью срипта
 ![Устаановленный OVPN на виртуальную машину яндекс](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalOVPN.png) 
+
+В результате установки OVPN в консоли выводится лицензия, секретный ключ для подключения, а также логин и пароль
+![Установленный OVPN](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/RunOVPN.png) 
