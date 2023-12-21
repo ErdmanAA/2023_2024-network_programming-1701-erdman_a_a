@@ -17,6 +17,9 @@ Lab: Lab1
 ### Ход работы  
 #### Создание вирутальной машины на сервисе Yandex.Cloud
 Была создана виртуальная машина в сервисеYandex.Cloud. Результат создання машины представлен ниже ![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/yandexVM.png)  
+
+Для подключения к виртуальной машине используется программа PuTTY, в которой был сгенерирован SSH ключ для подключения
+
 Слудющим шагом являлась установка puthon3 и ansible. 
 
 Python3 в данной виртуальной машине был предустановлен по умолчанию. ![Устаановленный python3](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalPython3.png) 
@@ -28,21 +31,5 @@ Ansible был установлен с помощью соответсвующи
 При создании виртуального роутера используется следующая настройка сети 
 ![Настройка сети виртуальной машины](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/settingVM1.png) 
 
-#### Работа с OpenVPN server
-Сначала установим сервер OpenVPN на удаленную виртуальную машину  
-Скачанный сервер представлен далее ![Скачанный сервер](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Скачивание%20openvpn%20сервера.png)  
-Отключим tls ![Отключенный tls](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Отключение%20tls.png)  
-Поставим режим только в режиме tcp, поскольку WinBox работает только с ним (chr) ![Выбор TCP](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Выбор%20TCP.png)  
-#### Подключение к серверу
-Подключимся по MAC-адресу к Winbox, чтобы в более удобном варианте настроить сертификаты и установить PPP соединение в режиме OVPN-клиента  
-
-Зайдём на сервер OpenVPN по адресу белого ip удаленной ВМ. Данные логина и пароля получим автоматически при установке OpenVPN-as сервера на удаленной ВМ ![Вход в личный кабинет](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Вход%20в%20личный%20кабинет.png)  
-Не забудь поменять ip адрес VPN сервера  
-Создадим пользователя с автологином без пароля ![Создание клиента](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Создание%20пользователя%20с%20автологином.png)  
-
-Создав клиента, получим сертификаты, которые вставим в Winbox.  
-Подключение по PPP представлено далее: ![Подключение по PPP](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Задание%20PPP%20подключения.png)  
-
-Как можно заметить, было выполнено успешное подключение к удаленному OpenVPN серверу ![Успешное подключение](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Успешный%20успех.png)  
-
-P.S. Была установлена утилита для локального времени, поскольку не всегда сервер работает корректно с локальной машиной в разных часовых зонах ![Утилита для времени](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Утилита%20для%20локального%20времени.png)  
+Далее был загружен образ виртуальной машины с офциального сайта Mikrotik. После была выполнена установка в VurtualBox. Также для дальнейшей работы был установлен WinBox, который позволяет подключаться к роутеру и управлять им, использую графический интрфейс.
+![Виртуальная машина с RouterOS](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/installRouterOS.png) 
