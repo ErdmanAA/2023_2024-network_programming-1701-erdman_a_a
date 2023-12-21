@@ -22,7 +22,11 @@ Lab: Lab1
 Python3 в данной виртуальной машине был предустановлен по умолчанию. ![Устаановленный python3](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalPython3.png) 
 
 Ansible был установлен с помощью соответсвующих команд. ![Установка Ansible](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/ansibleinstall.png)  
-Настройка адаптера представлена ниже: в режиме Bridge. ![Настройка интерфейса](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Настройки%20адаптера.png)  
+
+#### Установка RouterOS на VurtualBox
+При создании виртуального роутера используется следующая настройка сети 
+![Настройка сети виртуальной машины](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Настройки%20адаптера.png) 
+
 #### Работа с OpenVPN server
 Сначала установим сервер OpenVPN на удаленную виртуальную машину  
 Скачанный сервер представлен далее ![Скачанный сервер](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Скачивание%20openvpn%20сервера.png)  
