@@ -21,4 +21,5 @@ Lab: Lab1
 
 ![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab2/otchet/hostfile.png)
 
-
+В Ansible Playbook, чтобы добавить команды для создания пользователя, настройки NTP-клиента и OSPF, а также собрать информацию об интерфейсах устройства. Вносятся следующие необходимые изменения.
+![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab2/otchet/mk.yml.png)
