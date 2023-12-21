@@ -15,8 +15,8 @@ Lab: Lab1
 ## Цель работы  
 Целью данной работы является развертывание виртуальной машины на базе платформы Microsoft Azure с установленной системой контроля конфигураций Ansible и установка CHR в VirtualBox
 ### Ход работы  
-#### Подготовка виртуальной машины
-Для начала, была создана виртуальная машина на сайте Яндекс. Результат подключения по SSH представлен ниже ![Успешное подключение по SSH](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Заход%20на%20локальную%20виртуалку.png)  
+#### Создание вирутальной машины на сервисе Yandex.Cloud
+Была создана виртуальная машина в сервисеYandex.Cloud. Результат создання машины представлен ниже ![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/yandexVM.png)  
 Далее, были скачаны дополнительные плагины и зависимости для дальнейших лабораторных работ  
 Например, python & ansible ![Успешная установка Python & Ansible](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Cкачивание%20python%20%26%20ansible.png)  
 Настройка адаптера представлена ниже: в режиме Bridge. ![Настройка интерфейса](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Настройки%20адаптера.png)  
