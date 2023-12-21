@@ -1,12 +1,13 @@
-University: [ITMO University](https://itmo.ru/ru/)  
-Faculty: [FICT](https://fict.itmo.ru)  
-Course: [Network-programming](https://itmo-ict-faculty.github.io/network-programming/)   
+University: Sholom-Aleichem Priamursky State University 
+
+Faculty: FICT
+
+Course: Network-programming 
+
 Year: 2023/2024  
-Group: K34212  
+Group: 1701 
 Author: Dolmatov Dmitrii Alexeevich  
 Lab: Lab1  
-Date of create: 25.10.2023  
-Date of finished: --.12.2023  
 
 # Лабораторная работ №1 "Установка CHR и Ansible, настройка VPN"  
 ## Описание  
