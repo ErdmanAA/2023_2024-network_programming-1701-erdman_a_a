@@ -24,7 +24,7 @@ Lab: Lab1
 
 Слудющим шагом являлась установка puthon3 и ansible. 
 
-Python3 в данной виртуальной машине был предустановлен по умолчанию. ![Устаановленный python3](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalPython3.png) 
+Python3 в данной виртуальной машине был предустановлен по умолчанию. ![Устаановленный python3](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalPython.png) 
 
 Ansible был установлен с помощью соответсвующих команд. ![Установка Ansible](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/ansibleinstall.png)  
 
