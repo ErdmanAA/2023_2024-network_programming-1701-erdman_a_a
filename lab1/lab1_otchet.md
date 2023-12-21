@@ -17,8 +17,11 @@ Lab: Lab1
 ### Ход работы  
 #### Создание вирутальной машины на сервисе Yandex.Cloud
 Была создана виртуальная машина в сервисеYandex.Cloud. Результат создання машины представлен ниже ![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/yandexVM.png)  
-Слудющим шагом являлась установка puthon3 и ansible.  
-Python3 в данной виртуальной машине был предустановлен по умолчанию. ![Устаановленный python3](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalPython3.png) Ansible был установлен с помощью соответсвующих команд. ![Установка Ansible](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/ansibleinstall.png)  
+Слудющим шагом являлась установка puthon3 и ansible. 
+
+Python3 в данной виртуальной машине был предустановлен по умолчанию. ![Устаановленный python3](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalPython3.png) 
+
+Ansible был установлен с помощью соответсвующих команд. ![Установка Ansible](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/ansibleinstall.png)  
 Настройка адаптера представлена ниже: в режиме Bridge. ![Настройка интерфейса](https://github.com/DimbikeY/2023_2024-network_programming-k34212-dolmatov_d_a/blob/main/lab1/resources/Настройки%20адаптера.png)  
 #### Работа с OpenVPN server
 Сначала установим сервер OpenVPN на удаленную виртуальную машину  
