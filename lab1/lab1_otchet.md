@@ -37,5 +37,4 @@ Ansible был установлен с помощью соответсвующи
 ![Виртуальная машина с RouterOS](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/installRouterOS.png) 
 
 После настройки всех машин следует установка OVPN на виртуальную машину яндекс с помощью срипта
-
 ![Устаановленный OVPN на виртуальную машину яндекс](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalOVPN.png) 
