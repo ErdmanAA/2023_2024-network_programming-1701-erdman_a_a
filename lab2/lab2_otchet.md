@@ -18,13 +18,7 @@ Lab: Lab1
 Создание второй CHR виртуальнйо машины осущствляется дублированием первой и сбросом её настроек. Далее проводятся аналогичные действия , описанные в лабороторной работе №1, а именно загружаются файлы сертификата и секретного ключа, создаётся новый сетевой интеерфейс. После проделанных процедур проверяем наличие соединения сервера в яндекс облаке с локальными CHR машинами  ![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab2/otchet/chekingConnection.png)  
 
 Для использования возможностей Ansible в первую очередь необходимо создадать файл "hosts" для инвентаризации. В этом файле  укажем списки наших роутеров CHR, их IP-адреса, а также логины и пароли для доступа.
-'''
-[chrs]
-chr_1 ansible_host=172.27.240.20 rid=10.10.10.1
-chr_2 ansible_host=172.27.240.21 rid=10.10.10.2
 
-[chrs:vars]
-ansible_connection=ansible.netcommon.network_cli
-ansible_network_os=community.routeros.routeros
-ansible_user=admin
-ansible_ssh_pass=123
+![Созданная виртуальная машина](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab2/otchet/hostfile.png)
+
+
