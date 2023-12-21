@@ -1,6 +1,9 @@
 University: Sholom-Aleichem Priamursky State University 
+
 Faculty: FICT
+
 Course: Network-programming 
+
 Year: 2023/2024  
 Group: 1701 
 Author: Dolmatov Dmitrii Alexeevich  
