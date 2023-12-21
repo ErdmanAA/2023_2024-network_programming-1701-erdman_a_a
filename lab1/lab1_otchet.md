@@ -44,3 +44,6 @@ Ansible был установлен с помощью соответсвующи
 
 Далее осущствляется создания сетевого интерфейса в RouterOS с помощью WinBox. В процессе создания загружаются в файлы RouterOS сертификат и подключается к нему секретныйй ключ. Дале происходит настройка самого интерфейса
 ![Настройка сетевого интерфейса в WinBox](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/interfaceFoOVPNClientMT.png) 
+
+В результате создания интерфейса можно проверить подключения локальной виртуальной машины с виртуальной машиной яндекс с помощью команды ping
+![Проверка соединения между виртуальными машинами](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/pingRouterOS.png) 
