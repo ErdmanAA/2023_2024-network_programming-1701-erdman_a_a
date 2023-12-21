@@ -28,4 +28,3 @@ ansible_connection=ansible.netcommon.network_cli
 ansible_network_os=community.routeros.routeros
 ansible_user=admin
 ansible_ssh_pass=123
-'''
