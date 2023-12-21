@@ -35,3 +35,7 @@ Ansible был установлен с помощью соответсвующи
 
 Далее был загружен образ виртуальной машины с офциального сайта Mikrotik. После была выполнена установка в VurtualBox. Также для дальнейшей работы был установлен WinBox, который позволяет подключаться к роутеру и управлять им, использую графический интрфейс.
 ![Виртуальная машина с RouterOS](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/installRouterOS.png) 
+
+После настройки всех машин следует установка OVPN на виртуальную машину яндекс с помощью срипта
+
+![Устаановленный OVPN на виртуальную машину яндекс](https://github.com/ErdmanAA/2023_2024-network_programming-1701-erdman_a_a/blob/main/lab1/otchet/InstalOVPN.png) 
